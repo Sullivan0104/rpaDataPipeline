@@ -1,0 +1,77 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# --- swapi-python ---
+swapi-python/
+# --- Virtual Environments ---
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Build / Packaging ---
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- IDE / Editor files ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+.DS_Store
+*.iml
+
+# --- Logs / Temp ---
+*.log
+*.tmp
+*.temp
+logs/
+tmp/
+
+# --- Data (raw and processed outputs) ---
+data/raw/*
+data/processed/*
+
+# But keep folder structure
+!data/.gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# --- Reports ---
+*.pdf
+*.csv
+*.xlsx
+
+# --- Tests ---
+.coverage
+.tox/
+.nox/
+htmlcov/
+.pytest_cache/
+
+# --- Jupyter / Notebooks ---
+.ipynb_checkpoints/
+
+# --- System ---
+Thumbs.db
+desktop.ini
